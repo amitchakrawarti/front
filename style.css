@@ -1,0 +1,141 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  section {
+    padding-top: 5rem;
+  }
+
+.sticky-top
+{
+    position: sticky;
+}
+.container
+{
+ margin: 20px;
+  display: grid;
+flex-direction: column;
+overflow-x: auto;
+overflow-y: hidden;
+border-bottom: 10px solid black;
+margin-bottom: 30px;
+border-radius: 3px; 
+
+}
+.fadee{
+  position: absolute;
+  width: 1050px;
+  height: 745px; 
+  left: 96px;
+  top: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 100px;
+  line-height: 180px;
+  color: #FFFFFF;
+  animation: faadIn 2s;
+}
+@keyframes faadIn{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+}
+
+    .right
+    {
+        text-align: right;
+        position:relative;
+        top: 2%;
+        left:40%;
+        width:min-content;
+        height:min-content;
+
+    }
+    #home
+    {
+
+        background-color: black;
+    }
+.about-img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .about-img img {
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 0%;
+  }
+
+  .about-text {
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img {
+    margin-right: 10rem;
+  }
+  #text-1
+  {
+    font-size: 40px;
+  }
+  .card-title
+  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .card-body:hover
+  {
+   animation-name: backg;
+   animation-delay: 0.3s;
+   animation-duration:10s;
+
+  }
+  @keyframes backg
+  { 
+   0%
+    {
+    background-color:black;
+    color:white;
+    }
+  }
+  #knowmore
+  {
+    border-bottom:  5px solid black;
+  }
+  #formhead
+  {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #contactus
+  {
+    background-color: black;
+  }
+  .btn
+  {
+    padding : 10px 40px;
+    border-radius: 0%;
+}
+.form-floating
+{
+    color: white;
+}
+.form-control
+{
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+}
